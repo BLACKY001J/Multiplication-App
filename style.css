@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/716398/pexels-photo-716398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 231, 239);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(244, 239, 239, 0.3);
+}
+
+#score{
+    color: rgb(21, 18, 18);
+    text-align: right;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+#question{
+    color: rgb(185, 165, 165);
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+span{
+    color: red;
+}
+
+#input{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    width: 60%;
+    font-size: 15px;
+}
+
+.input::placeholder{
+    color:rgb(188, 187, 187) ;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    width: 20%;
+    box-shadow: 0 2px 4px rgb(0,0,0,0.3);
+
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+}
